@@ -6,4 +6,4 @@
 - https://github.com/maknetaRo/go-mini-projects/blob/main/mad-lib.go 
 - https://github.com/maknetaRo/go-mini-projects/blob/main/print-quotes.go 
 - https://github.com/maknetaRo/go-mini-projects/blob/main/say-hello.go
-3. Day 3: - https://github.com/maknetaRo/go-mini-projects/commit/feed0fbda074a3aa7644ff1d5068970a15bc1c9a
+3. Day 3: https://github.com/maknetaRo/go-mini-projects/blob/main/retirement-calc.go
