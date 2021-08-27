@@ -1,0 +1,55 @@
+package main
+
+import (
+	"fmt"
+	"strings"
+) 
+
+func areaOfRect(a, b float64) (float64, float64) {
+	feetArea := a * b
+	meterSquare := feetArea * 0.09290304
+	return feetArea, meterSquare
+}
+func areaOfRect2(a, b float64) (float64, float64) {
+	meterSquare := a * b 
+	fmt.Println(meterSquare)
+	feetArea := meterSquare / 0.09290304
+	fmt.Println(feetArea)
+	return meterSquare, feetArea
+}
+func main(){
+	var length, width float64
+	var feetOrMeters string
+	
+
+	fmt.Println("Feet? or Meters?")
+	fmt.Scanln(&feetOrMeters)
+
+	if strings.ToLower(feetOrMeters) == "feet" {
+		fmt.Println("What is the length of the room in feet?")
+		fmt.Scanln(&length)	
+	
+		fmt.Println("What is the width of the room in feet?")
+		fmt.Scanln(&width)
+	
+		feetArea, meterSquare := areaOfRect(length, width)
+		fmt.Printf("You entered dimensions of %v feet by %v feet.\n", length, width)
+		fmt.Printf("The area is: \n %v square feet \n %v square meters.\n", feetArea, meterSquare)
+	} else {
+		fmt.Println("What is the length of the room in meters?")
+		fmt.Scanln(&length)	
+	
+		fmt.Println("What is the width of the room in meters?")
+		fmt.Scanln(&width)
+	
+	meters, feet := areaOfRect2(length, width)
+		fmt.Printf("You entered dimensions of %v meters by %v meters.\n", length, width)
+		fmt.Printf("The area is: \n %v square meters \n %v square feet.\n", meters, feet)
+	}
+
+	
+
+
+
+
+}
