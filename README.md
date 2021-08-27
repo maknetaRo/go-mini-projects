@@ -7,3 +7,4 @@
 - https://github.com/maknetaRo/go-mini-projects/blob/main/print-quotes.go 
 - https://github.com/maknetaRo/go-mini-projects/blob/main/say-hello.go
 3. Day 3: https://github.com/maknetaRo/go-mini-projects/blob/main/retirement-calc.go
+4. Day 4: https://github.com/maknetaRo/go-mini-projects/blob/main/rect.go
