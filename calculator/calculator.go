@@ -32,3 +32,7 @@ func MetersToFeet(a float64) (float64) {
 	feetArea := a / 0.09290304
 	return  feetArea
 }
+
+func CalcInterest(a, b, c float64) float64 {
+	return a * (1 + b/100*c)
+}

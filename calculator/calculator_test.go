@@ -77,3 +77,13 @@ func TestMetersToFeet(t *testing.T) {
 		t.Errorf("want %f, got %f", want, got)
 	}
 }
+
+func TestCalcInterest(t *testing.T) {
+	t.Parallel()
+	got := calculator.CalcInterest(1500.0, 4.3, 4.0)
+	want := 1758.0
+
+	if want != got {
+		t.Errorf("want %f, got %f", want, got)
+}
+}
